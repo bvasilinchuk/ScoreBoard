@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h3>HOME</h3>
+        <div class="screen">
+          <p id="home-score"></p>
+        </div>
+        <div class="button-field">
+          <button onclick="onePointHome()">+1</button>
+          <button onclick="twoPointHome()">+2</button>
+          <button onclick="threePointHome()">+3</button>
+        </div>
+      </div>
+      <div class="timer">
+        <p id="timer">
+          <span id="seconds">00</span>:<span id="miliseconds">00</span>
+        </p>
+      </div>
+      <div>
+        <h3>GUEST</h3>
+        <div class="screen">
+          <p id="guest-score"></p>
+        </div>
+        <div class="button-field">
+          <button onclick="onePointGuest()">+1</button>
+          <button onclick="twoPointGuest()">+2</button>
+          <button onclick="threePointGuest()">+3</button>
+        </div>
+      </div>
+    </div>
+    <div class="control-buttons">
+      <button id="start-btn" onclick="start_stopwatch()">Start</button>
+      <button id="stop-btn" onclick="stop_stopwatch()">Stop</button>
+      <button id="reset-btn" onclick="reset_stopwatch()">Reset</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

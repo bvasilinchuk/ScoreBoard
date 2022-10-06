@@ -1,0 +1,118 @@
+
+@import url('https://www.fontzip.com/storage/2018/04/07/cursed-timer-ulil/webfonts/CursedTimerULiL.css');
+
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 18px;
+    padding-bottom: 0;
+    color: #eeeeee;
+}
+
+.screen{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 0;
+    margin-top: 0;
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.screen p{
+    color: #F94F6D;
+    font-size: 90px;
+    font-family: CursedTimerULiL;
+    align-self: center;
+}
+
+.timer{
+    background-color: #080001;
+    width: 200px;
+    height: 100px; 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 150px;
+    border-radius: 5px;
+}
+
+.timer p{
+    color: #F94F6D;
+    font-size: 40px;
+    font-family: CursedTimerULiL;
+    align-self: center;
+}
+
+.button-field{
+    display: flex;
+    justify-content: space-between;Ы
+    align-items: center;
+    align-content: center;
+    padding: 0;
+}
+
+.button-field button{
+    padding: 5px;
+    font-family: CursedTimerULiL;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #9AABD8;
+    width: 45px;
+    height: 45px;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8
+}
+
+.control-buttons{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 40px;
+    grid-row-gap: 10px;
+}
+
+#start-btn{
+    font-family: CursedTimerULiL;
+    height: 40px;
+    font-size: 18px;
+    background-color: #10B981;
+    border-radius: 5px;
+    border: 2px solid #9AABD8
+}
+
+#stop-btn{
+    font-family: CursedTimerULiL;
+    height: 40px;
+    font-size: 18px;
+    background-color: #F43F5E;
+    border-radius: 5px;
+    border: 2px solid #9AABD8
+}
+
+#reset-btn{
+    font-family: CursedTimerULiL;
+    height: 40px;
+    font-size: 18px;
+    background-color: #9CA3AF;
+    border-radius: 5px;
+    border: 2px solid #9AABD8
+}
